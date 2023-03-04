@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE equipos [
+	<!ELEMENT equipos (equipo, entrenador, jugador+)>
+	<!ELEMENT equipo (#PCDATA)>
+	<!ELEMENT entrenador (#PCDATA)>
+	<!ELEMENT jugador (nombre, posicion)>
+	<!ELEMENT nombre (#PCDATA)>
+	<!ELEMENT posicion (#PCDATA)>
+]>
+
+<equipos>
+
+	<equipo>FC Barcelona</equipo>
+
+	<entrenador>Xabi Hernandez</entrenador>
+
+	<jugador>
+		<nombre>Marc Andre ter Stegen</nombre>
+		<posicion>Portero</posicion>
+	</jugador>
+
+	<jugador>
+		<nombre>Jordi Alba</nombre>
+		<posicion>Defensa</posicion>
+	</jugador>
+
+	<jugador>
+		<nombre>Sergio Busquets</nombre>
+		<posicion>Centroampista</posicion>
+	</jugador>
+
+	<jugador>
+		<nombre>Robert Lewandowski</nombre>
+		<posicion>Delantero</posicion>
+	</jugador>
+
+	<jugador>
+		<nombre>Ferran Torres</nombre>
+		<posicion>Delantero</posicion>
+	</jugador>
+	
+</equipos>
