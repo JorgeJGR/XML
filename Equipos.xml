@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylessheet href=""estilos.css"?>
 
 <!DOCTYPE equipos [
 	<!ELEMENT equipos (equipo, entrenador, jugador+)>
